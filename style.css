@@ -1,0 +1,155 @@
+* {
+  border: 0px;
+  margin: 0px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+#app {
+  display: grid;
+  grid-template-columns: 20vw 1fr;
+  grid-template-rows: 20vh 80vh;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #1a92d3;
+  height: 100vh;
+  color: white;
+  font-weight: 400;
+}
+
+.dashboard-title,
+.dashboard-select,
+.settings {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 4px 0px 10px rgba(128, 128, 128, 0.274);
+}
+
+.top-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px 10px 30px;
+}
+
+.search-container {
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.profile-icons {
+  display: flex;
+  align-items: center;
+}
+
+input {
+  background-color: rgba(231, 231, 231, 0.795);
+  border-radius: 10px;
+}
+
+.bottom-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px 10px 30px;
+}
+
+.bot-head-left,
+.bot-head-right {
+  display: flex;
+  align-items: center;
+
+  gap: 15px;
+}
+
+button {
+  background-color: #1a92d3;
+  width: 60px;
+  height: 22px;
+  border-radius: 10px;
+  color: white;
+}
+
+img {
+  background-color: red;
+  width: 32px;
+  height: 32px;
+}
+
+.main-container {
+  grid-column-start: 2;
+  display: grid;
+  padding: 30px 30px 30px 30px;
+  background-color: rgba(231, 231, 231, 0.795);
+  align-content: start;
+  grid-template-columns: 1fr 0.5fr;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.card-projects {
+  display: flex;
+  flex-direction: column;
+  font-size: small;
+  border-left: 10px solid orange;
+  justify-content: center;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px 30px;
+  min-height: 18vh;
+  max-height: 30vh;
+}
+
+.card-projects > .icons {
+  display: flex;
+  justify-content: end;
+  gap: 15px;
+  margin-top: 40px;
+}
+
+.right-main {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: space-between;
+  margin-left: 15px;
+}
+
+.trend {
+  display: flex;
+  gap: 15px;
+  padding: 10px 20px;
+}
+.top-right-main,
+.bot-right-main {
+  background-color: white;
+  border-radius: 10px;
+}
+
+.ann:nth-child(3) {
+  border-bottom: 1px none red;
+}
+
+.ann {
+  padding: 10px 20px;
+  margin: 0px 20px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.555);
+}
